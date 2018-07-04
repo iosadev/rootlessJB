@@ -50,6 +50,11 @@ All executables must have at least these two entitlements:
 - Tweaks and stuff get installed in: /var/containers/Bundle/tweaksupport the same way you did with Electra betas.
 - Tweaks must be patched using the patcher script provided. (Mac and Linux only) or manually
 - PreferenceLoader currently is broken
+- launchctl is also broken
+- Jailbreak detection is IMPOSSIBLE as long as injection is disabled in App Store apps
+- Does not conflict with Electra, at ALL
+- No chance to mess up
+
 Usage:
     ./patcher /path/to/deb /path/to/output_folder
 
